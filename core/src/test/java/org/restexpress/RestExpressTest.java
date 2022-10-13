@@ -467,6 +467,7 @@ public class RestExpressTest
 		finally
 		{
 			post.releaseConnection();
+			f1.delete();
 		}
 	}
 
