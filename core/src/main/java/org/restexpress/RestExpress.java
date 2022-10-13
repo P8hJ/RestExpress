@@ -778,7 +778,7 @@ public class RestExpress
 		bootstrap.childOption(ChannelOption.TCP_NODELAY, useTcpNoDelay());
 		bootstrap.childOption(ChannelOption.SO_LINGER, getSoLinger());
 		//TODO: Investigate re. memory leak.
-		bootstrap.childOption(ChannelOption.ALLOCATOR, new PooledByteBufAllocator(true));
+		//bootstrap.childOption(ChannelOption.ALLOCATOR, new PooledByteBufAllocator(true));
 		bootstrap.option(ChannelOption.RCVBUF_ALLOCATOR, new AdaptiveRecvByteBufAllocator());
 		bootstrap.childOption(ChannelOption.SO_RCVBUF, getReceiveBufferSize());
 		bootstrap.childOption(ChannelOption.SO_REUSEADDR, shouldReuseAddress());
