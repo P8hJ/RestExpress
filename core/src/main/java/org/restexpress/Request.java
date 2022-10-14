@@ -787,7 +787,14 @@ public class Request
 
 			for (String value : entry.getValue())
 			{
-                request.headers().add(key, decode(value));
+				try
+				{
+					request.headers().add(key, decode(value));
+				}
+				catch (IllegalArgumentException e)
+				{
+					// some characters are valid in query strings but invalid in HTTP headers
+				}
 			}
 		}
 	}
