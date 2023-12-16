@@ -25,6 +25,14 @@
 		</dependency>
 	</dependencies>
 
+	<distributionManagement>
+		<repository>
+			<id>RestExpress</id>
+			<name>GitHub Packages</name>
+			<url>https://maven.pkg.github.com/${githubRepository}</url>
+		</repository>
+	</distributionManagement>
+
 	<parent>
 		<groupId>org.sonatype.oss</groupId>
 		<artifactId>oss-parent</artifactId>
