@@ -4,7 +4,7 @@
 	<name>RestExpress-Common</name>
 	<description>Utilities and classes common to all RESTExpress projects.</description>
 	<url>https://github.com/RestExpress/RestExpress-Common</url>
-	<artifactId>RestExpress-Common</artifactId>
+	<artifactId>restexpress-common</artifactId>
 	<packaging>jar</packaging>
 
 	<parent>

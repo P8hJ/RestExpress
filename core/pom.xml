@@ -4,7 +4,7 @@
 	<name>RestExpress</name>
 	<description>Internet scale, high-performance RESTful Services in Java</description>
 	<url>https://github.com/RestExpress/RestExpress</url>
-	<artifactId>RestExpress</artifactId>
+	<artifactId>restexpress</artifactId>
 	<packaging>jar</packaging>
 
 	<parent>
@@ -16,7 +16,7 @@
 	<dependencies>
 		<dependency>
 			<groupId>org.eblocker</groupId>
-			<artifactId>RestExpress-Common</artifactId>
+			<artifactId>restexpress-common</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 		<dependency>
