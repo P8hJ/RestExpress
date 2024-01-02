@@ -6,7 +6,7 @@
 	<url>https://github.com/RestExpress/RestExpress</url>
 	<groupId>org.eblocker</groupId>
 	<artifactId>restexpress-parent</artifactId>
-	<version>0.12.1</version>
+	<version>0.12.2</version>
 	<packaging>pom</packaging>
 
 	<modules>
